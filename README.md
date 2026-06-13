@@ -229,9 +229,9 @@ Aspiring AI Engineer | Data Analyst | Software Developer
 
 **Skills:** Python • SQL • Machine Learning • LangGraph • RAG • FastAPI • PostgreSQL • Power BI • Data Analytics
 
-📧 Email: Your Email Here
+📧 Email: nakkadharanigoud52@gmail.com
 
-💼 LinkedIn: Your LinkedIn Here
+💼 LinkedIn: https://www.linkedin.com/in/nakka-dharani-goud
 
 🔗 GitHub: https://github.com/nakkadharanigoud
 
