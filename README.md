@@ -1,71 +1,238 @@
-💰 Capital Compass – Agentic AI Financial Guidance Platform
+# 💰 Capital Compass AI
 
-An intelligent Agentic AI-powered financial guidance platform that delivers personalized insights using advanced techniques like LangGraph orchestration and Retrieval-Augmented Generation (RAG).
+### Agentic AI-Powered Financial Guidance Platform
 
+Capital Compass AI is an intelligent financial guidance platform that leverages **Agentic AI, LangGraph, and Retrieval-Augmented Generation (RAG)** to provide personalized financial insights and recommendations. The system autonomously analyzes user queries, retrieves relevant financial knowledge, performs multi-step reasoning, and generates context-aware responses in real time.
 
-🚀 Overview
+---
 
-Capital Compass leverages Agentic AI workflows to autonomously process user queries, retrieve relevant financial knowledge, and generate context-aware, personalized recommendations.
+## 🚀 Project Overview
 
-The system is designed for low-latency, high-accuracy responses, making it suitable for real-time financial assistance.
+Traditional financial assistants often provide generic responses without considering user context or relevant financial knowledge sources. Capital Compass AI addresses this challenge by combining:
 
+* **Agentic AI** for autonomous reasoning and decision-making
+* **LangGraph** for multi-agent workflow orchestration
+* **RAG (Retrieval-Augmented Generation)** for knowledge-grounded responses
+* **LLMs** for intelligent financial guidance
 
-✨ Features
+The platform enables users to receive personalized financial recommendations through a structured and explainable AI workflow.
 
-🤖 Agentic AI workflow for autonomous decision-making
+---
 
-🔍 Context-aware financial query analysis
+## 🎯 Key Features
 
-🔗 LangGraph-based multi-step reasoning pipeline
+### 🤖 Agentic AI Architecture
 
-📚 Retrieval-Augmented Generation (RAG) for accurate insights
+* Autonomous financial query understanding
+* Dynamic decision-making workflow
+* Multi-step reasoning process
+* Context-aware response generation
 
-⚡ Low-latency response generation
+### 🔍 Intelligent Financial Analysis
 
-📊 Personalized financial recommendations
+* User intent detection
+* Financial query categorization
+* Personalized recommendation generation
+* Context-sensitive guidance
 
+### 🔗 LangGraph Orchestration
 
-🧠 Key Concepts
+* Agent workflow management
+* Multi-stage reasoning pipeline
+* Structured execution flow
+* Scalable AI architecture
 
-Agentic AI: Autonomous agents that plan, reason, and act
+### 📚 Retrieval-Augmented Generation (RAG)
 
-LangGraph: Workflow orchestration for multi-step reasoning
+* Knowledge-grounded responses
+* Reduced hallucinations
+* Relevant financial information retrieval
+* Enhanced response accuracy
 
-RAG: Combines retrieval + generation for grounded responses
+### ⚡ Performance Optimization
 
+* Low-latency response generation
+* Efficient retrieval pipeline
+* Scalable architecture design
 
-🛠️ Tech Stack
+---
 
-Backend: Python
+## 🧠 System Workflow
 
-AI Frameworks: LangGraph, RAG
+```text
+User Query
+     │
+     ▼
+Intent Analysis Agent
+     │
+     ▼
+Context Understanding
+     │
+     ▼
+LangGraph Orchestration
+     │
+     ▼
+Knowledge Retrieval (RAG)
+     │
+     ▼
+LLM Reasoning & Generation
+     │
+     ▼
+Personalized Financial Guidance
+```
 
-LLMs: OpenAI / compatible models
+---
 
-Architecture: Agent-based pipeline
+## 🏗️ Architecture
 
+The project follows an Agentic AI architecture consisting of:
 
-⚙️ How It Works
+### 1️⃣ Query Understanding Agent
 
-User submits a financial query
+Analyzes user intent and extracts relevant financial context.
 
-Agent analyzes intent and context
+### 2️⃣ Retrieval Agent
 
-LangGraph orchestrates multi-step reasoning
+Searches and retrieves relevant financial information using RAG.
 
-Relevant financial data is retrieved (RAG)
+### 3️⃣ Reasoning Agent
 
-LLM generates personalized response
+Processes retrieved information through multi-step reasoning.
 
-Final insight is delivered to user
+### 4️⃣ Response Generation Agent
 
+Generates personalized recommendations and actionable insights.
 
-🖥️ Installation & Setup
+---
 
+## 🛠️ Tech Stack
+
+| Category             | Technologies |
+| -------------------- | ------------ |
+| Programming Language | Python       |
+| Agent Framework      | LangGraph    |
+| AI Architecture      | Agentic AI   |
+| Retrieval System     | RAG          |
+| LLM Integration      | OpenAI API   |
+| Backend              | Python       |
+| Version Control      | Git & GitHub |
+
+---
+
+## 📂 Project Structure
+
+```bash
+Capital-Compass-AI/
+│
+├── app.py
+├── requirements.txt
+├── agents/
+├── workflows/
+├── retrieval/
+├── data/
+├── utils/
+├── prompts/
+├── assets/
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone Repository
+
+```bash
 git clone https://github.com/nakkadharanigoud/Capital-Compass-AI.git
+cd Capital-Compass-AI
+```
 
-cd capital-compass
+### Create Virtual Environment
 
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux/Mac
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-python app.py  
+### Run Application
+
+```bash
+python app.py
+```
+
+---
+
+## 📈 Business Impact
+
+Capital Compass AI demonstrates how Agentic AI systems can:
+
+* Improve financial decision-making
+* Deliver personalized recommendations
+* Reduce response latency
+* Increase contextual understanding
+* Enhance user experience through intelligent automation
+
+---
+
+## 🎓 Skills Demonstrated
+
+* Agentic AI Systems
+* LangGraph Workflow Development
+* Retrieval-Augmented Generation (RAG)
+* Prompt Engineering
+* LLM Application Development
+* AI Workflow Orchestration
+* Python Development
+* Intelligent Recommendation Systems
+
+---
+
+## 🔮 Future Enhancements
+
+* Real-time financial market integration
+* Portfolio optimization recommendations
+* Multi-agent collaboration workflows
+* Financial risk assessment engine
+* Personalized investment planning
+* Cloud deployment and API integration
+
+---
+
+## 👨‍💻 Author
+
+### Nakka Dharani Goud
+
+Aspiring AI Engineer | Data Analyst | Software Developer
+
+**Skills:** Python • SQL • Machine Learning • LangGraph • RAG • FastAPI • PostgreSQL • Power BI • Data Analytics
+
+📧 Email: Your Email Here
+
+💼 LinkedIn: Your LinkedIn Here
+
+🔗 GitHub: https://github.com/nakkadharanigoud
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub and sharing your feedback.
