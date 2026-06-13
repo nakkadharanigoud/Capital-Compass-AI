@@ -137,7 +137,11 @@ Capital-Compass-AI/
 ```
 
 ---
+### Output
+<img width="1717" height="825" alt="image" src="https://github.com/user-attachments/assets/eda08576-8405-4897-b5e9-21731b5bf709" />
 
+
+---
 ## ⚙️ Installation & Setup
 
 ### Clone Repository
